@@ -1,11 +1,23 @@
 # cnc
 
-## TODO
+Leaked command and control server for a DDoS botnet.
+It supports API, daily attacks, image rendering, termfx, etc..
+Code is garbage.
 
-### In process
-- [ ] View proxies in CNC
+## How to run?
 
-### Done
+ - Clone this repository.
+ - Create a new PostgreSQL user (you'll find tutorials for this on Google)
+ - Create a database named `botnet`.
+ - Configure database in [database.go](https://github.com/reaisuru/cnc/blob/main/internal/database/database.go)
+ - Execute the binary. `go run cmd/main.go`
+
+### Requirements
+ - [Go](https://go.dev) 1.22.4 or above.
+ - [PostgreSQL](https://www.postgresql.org/)
+
+##  TODO
+
 - [x] Captcha
 - Users
   - [x] Add user
