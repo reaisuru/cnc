@@ -391,15 +391,6 @@ func (u *UserProfile) Update() error {
 		return err
 	}
 
-	// golang is bad but we are worse.
-	// no seriously, why can't you just set the struct???
-
-	srcVal := reflect.ValueOf(user).Elem()
-	dstVal := reflect.ValueOf(u).Elem()
-
-	for i := 0; i < srcVal.NumField(); i++ {
-		dstVal.Field(i).Set(srcVal.Field(i))
-	}
-
+	*u = *user
 	return nil
 }
