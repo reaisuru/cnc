@@ -1,0 +1,8 @@
+\x1b[0m
+<<fastgradient("List of spoof floods", 38, "#007367", "#004173")>>\x1b[0m:
+<<fastgradient("udp", 38, "#007367", "#004173")>>\x1b[0m: UDP multi-vector flood (spoof)
+<<fastgradient("tcp", 38, "#007367", "#004173")>>\x1b[0m: TCP multi-vector flood (spoof)
+\x1b[0m
+<<fastgradient("List of layer7 floods", 38, "#007367", "#004173")>>\x1b[0m:
+<<fastgradient("https", 38, "#007367", "#004173")>>\x1b[0m: \x1b[0mHTTP high rq/s flood
+<<fastgradient("browser", 38, "#007367", "#004173")>>\x1b[0m: HTTP flood for bypassing challenges

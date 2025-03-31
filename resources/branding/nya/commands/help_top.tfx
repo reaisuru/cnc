@@ -1,0 +1,3 @@
+\x1b[0m<<fastgradient("Preset<escape>\x1b[0m: !udpplain <target> <duration>", 38, "#007367", "#004173")>> \x1b[0m
+\x1b[0m<<fastgradient("Example<escape>\x1b[0m: !udpplain 1.1.1.1 10 dport=80 len=1312", 38, "#007367", "#004173")>> \x1b[0m
+\x1b[0m<<fastgradient("List available options for flood<escape>\x1b[0m: !udpplain 1.1.1.1 ?", 38, "#007367", "#004173")>> \x1b[0m

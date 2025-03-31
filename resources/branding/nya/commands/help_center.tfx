@@ -1,0 +1,1 @@
+\x1b[0m<<fastgradient(sprintf("!%s<escape>\x1b[0m: %s", $name, $desc), 38, "#007367", "#004173")>> \x1b[0m

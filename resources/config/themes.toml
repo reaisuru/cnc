@@ -1,0 +1,17 @@
+[default]
+    display-name = "Default"
+    description = "The default theme of the command and control."
+    colors = ["#2a63b8", "#e3e3e3"]
+    is-gradient = false
+
+[fodcha]
+    display-name = "Fodcha"
+    description = "The default theme of the command and control."
+    colors = ["#2a63b8", "#e3e3e3"]
+    is-gradient = false
+
+[nya]
+    display-name = "Nya"
+    description = "nyaaa~!"
+    colors = ["#007367", "#004173"]
+    is-gradient = true
