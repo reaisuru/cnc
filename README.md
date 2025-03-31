@@ -15,6 +15,7 @@ Code is garbage.
 ### Requirements
  - [Go](https://go.dev) 1.22.4 or above.
  - [PostgreSQL](https://www.postgresql.org/)
+ - A brain. 
 
 ##  TODO
 
